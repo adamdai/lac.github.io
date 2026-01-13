@@ -119,10 +119,21 @@ body {
   overflow: hidden;
   padding: 20px;
   font-size: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .results-carousel video {
   margin: 0;
+  display: block;
+}
+
+.results-carousel .video-caption {
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+  color: #333;
 }
 
 .slider-pagination .slider-page {
